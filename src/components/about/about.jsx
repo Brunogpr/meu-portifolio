@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg"
+import AboutBox from './AboutBox';
 
 
 const About = () => {
@@ -22,41 +23,43 @@ const About = () => {
 
                     <div className="about__skills grid">
                         <div className="skills__data">
-                            <div className="skills_titles">
-                                <h3 className="skills_name">Desenvolvimento</h3>
-                                <span className="skills__number development">90%</span>
+                            <div className="skills__titles">
+                                <h3 className="skills_name">React.Js</h3>
+                                <span className="skills__number">40%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage"></span>
+                                <span className="skills__percentage react"></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
-                            <div className="skills_titles">
-                                <h3 className="skills_name">Designer Grafico</h3>
-                                <span className="skills__number">60%</span>
+                            <div className="skills__titles">
+                                <h3 className="skills_name">Node.Js</h3>
+                                <span className="skills__number">50%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage ui__design"></span>
+                                <span className="skills__percentage node"></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
-                            <div className="skills_titles">
-                                <h3 className="skills_name">Fotografia</h3>
+                            <div className="skills__titles">
+                                <h3 className="skills_name">Python</h3>
                                 <span className="skills__number">60%</span>
                             </div>
 
                             <div className="skills__bar">
-                                <span className="skills__percentage ui__design"></span>
+                                <span className="skills__percentage python"></span>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            <AboutBox />
         </section>
     )
 }
