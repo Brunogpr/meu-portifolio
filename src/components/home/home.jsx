@@ -15,7 +15,7 @@ const Home = () => {
 
                 <HeaderSocials />
 
-                <a href="contact" className='btn'>Contate-me</a>
+                <a href="https://wa.me/5531993792429" target="blank" className='btn'>Contate-me</a>
 
                 <ScrollDown />
             </div>

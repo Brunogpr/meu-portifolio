@@ -7,7 +7,7 @@ import Image3 from "../../assets/blog-3.svg";
 const Blog = () => {
     return (
         <section className="blog container section" id="blog">
-            <h2 className="section__title">Latest Posts</h2>
+            <h2 className="section__title">Blog</h2>
 
             <div className="blog__container grid">
                 <div className="blog__card">
@@ -42,7 +42,7 @@ const Blog = () => {
 
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Business</span></a>
+                        <a href="#"><span className="blog__category">Negócios</span></a>
                         <a href="#"><img src={Image3} alt="" className="blog__img" /></a>
                     </div>
                     <div className="blog__details">
