@@ -5,7 +5,7 @@ import Card from './Card';
 
 const Resume = () => {
     return (
-        <serction className="resume container section" id="resume">
+        <section className="resume container section" id="resume">
             <h2 className="section__title">Experiência</h2>
 
             <div className="resume__container grid">
@@ -39,7 +39,7 @@ const Resume = () => {
                     })}
                 </div>
             </div>
-        </serction>
+        </section>
     )
 }
 

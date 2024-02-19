@@ -22,7 +22,7 @@ const App = () => {
         <Resume />
         <Portifolio />
         <Pricing />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Blog />
         <Contact />
       </main>
