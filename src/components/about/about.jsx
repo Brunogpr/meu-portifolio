@@ -17,7 +17,7 @@ const About = () => {
                         <p className="about__description">
                             Trabalho atualmente com desenvolvimento RPA em Python, realizo integrações de API externa com sistemas internos para melhoria do desempenho das funções. Desenvolvo tambem melhorias em telas do Logix(TOTVS) e realizo criação de dashbords no PBI para acompanhamento de indicadores.
                         </p>
-                        <a href="../assets/curriculo/Curriculo_Bruno_2024.docx" download className="btn">Download CV</a>
+                        <a href="/Curriculo_Bruno_2024.docx" download className="btn">Download CV</a>
                     </div>
 
                     <div className="about__skills grid">
