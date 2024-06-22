@@ -9,7 +9,7 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "React Prime",
+      title: "React Prime - (Em Construção)",
       category: "React-Native",
       link: "https://github.com/Brunogpr/React_Prime",
     },
