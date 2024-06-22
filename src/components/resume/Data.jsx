@@ -5,7 +5,7 @@ const Data = [
     icon: "icon-graduation",
     year: "2018 - 2021",
     title: "Bacharel em Sistemas de Informação",
-    desc: "Formado em Sistemas de Informação pela faculdade Pitagoras.",
+    desc: "Curso de Sistemas de Informação pela faculdade Pitagoras.",
   },
   {
     id: 2,
