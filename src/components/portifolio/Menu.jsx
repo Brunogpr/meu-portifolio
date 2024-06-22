@@ -18,13 +18,14 @@ const Menu = [
       image: Work2,
       title: "API Rest Full",
       category: "Node",
-      link: "https://github.com/Brunogpr/Rest_API_NodeJS"
+      link: "https://github.com/Brunogpr/Rest_API_NodeJS",
     },
     {
       id: 3,
       image: Work3,
       title: "Bot AFK",
       category: "Python",
+      link: "https://github.com/Brunogpr/bot-AFK",
     },
     // ,
     // {
